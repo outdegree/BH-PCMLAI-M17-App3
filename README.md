@@ -39,7 +39,7 @@ During EDA following interesting patterns have been found:
 * Previous successful engagement with the customer wins current call ~65%.
 * Persistent calls from 3 to 5 times increase chance to even ~70%. More calls than that and the customer is less likely to respond positively.
 
-After training a Logistic Regression model following important features were identified using model's coefficients:
+After training a Logistic Regression model following insights and important features were identified:
 * It is easier to predict failure of a call than a successful one.
 * Age has little influence on classification. Also day of the week, month / season or education level.
 * Previous positive śengagement (`poutcome`) has strongest positive influence on acceptance.
@@ -47,7 +47,7 @@ After training a Logistic Regression model following important features were ide
 
 ![alt text](images/lr_coef.png)
 
-After training a Decision Tree Classifier model following important features were identified:
+After training a Decision Tree Classifier model following insights and important features were identified:
 * Age plays most important role in this model. Where as in Logistic Regression it had minimal impact.
 * Like in Logistic Regression, socioeconomic factors seem to play also significant role in Decision Tree Classifier.
 * Strong employment and good Euribor interests rate are key attributes.

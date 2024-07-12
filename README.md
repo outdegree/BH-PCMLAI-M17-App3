@@ -40,9 +40,9 @@ During EDA following interesting patterns have been found:
 * Persistent calls from 3 to 5 times increase chance to even ~70%. More calls than that and the customer is less likely to respond positively.
 
 After training a Logistic Regression model following insights and important features were identified:
-* It is easier to predict failure of a call than a successful one.
+* It is easier to predict failure of a call than a successful call.
 * Age has little influence on classification. Also day of the week, month / season or education level.
-* Previous positive śengagement (`poutcome`) has strongest positive influence on acceptance.
+* Previous positive engagement (`poutcome`) has strongest positive influence on acceptance.
 * Current socioeconomic trends are also very important factors in decision making. Euribor interest rates and price index influence customers to accept the offer, where as unemployment negatively influences the customers.
 
 ![alt text](images/lr_coef.png)

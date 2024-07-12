@@ -57,4 +57,4 @@ After training a Decision Tree Classifier model following important features wer
 ## Next Steps
 
 * Use ensemble methods like Random Forest or Boosting.
-* Use more advanced Feature Engineering techniques.
+* Use more advanced EDA and Feature Engineering techniques.
